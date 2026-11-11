@@ -1,1 +1,1 @@
-# Mini-Proyectyo-2-para-Programaci-n-C-
+# Mini-Proyectyo-2-para-Programacion-CSharp
