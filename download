@@ -1,0 +1,32 @@
+# Compilación
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resultados de publicación (se generan con publicar.bat)
+publicacion/
+instalador/Salida/
+
+# Bases de datos locales de prueba
+*.db
+*.db-journal
+
+# Paquetes NuGet
+*.nupkg
+packages/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
