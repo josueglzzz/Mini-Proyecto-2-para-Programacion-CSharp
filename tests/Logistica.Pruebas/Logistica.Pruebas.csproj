@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Logistica.Dominio\Logistica.Dominio.csproj" />
     <ProjectReference Include="..\..\src\Logistica.Logica\Logistica.Logica.csproj" />
+    <ProjectReference Include="..\..\src\Logistica.Persistencia\Logistica.Persistencia.csproj" />
   </ItemGroup>
 
 </Project>
