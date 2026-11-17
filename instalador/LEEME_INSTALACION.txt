@@ -1,0 +1,34 @@
+SISTEMA DE PROCESAMIENTO Y AUDITORIA DE FACTURACION (LOGISTICA Y ENTREGAS)
+Version 1.0.0
+==========================================================================
+
+REQUISITOS
+- Windows 10 u 11 de 64 bits.
+- No requiere instalar .NET: la aplicacion incluye su propio entorno de ejecucion.
+
+INSTALACION (paquete .zip)
+1. Descomprima la carpeta "LogisticaFacturacion" en una ubicacion con permisos
+   de escritura, por ejemplo: Documentos\LogisticaFacturacion
+2. Ejecute LogisticaFacturacion.exe
+3. Si Windows SmartScreen muestra un aviso, elija "Mas informacion" > "Ejecutar de todas formas".
+
+INSTALACION (SetupLogisticaFacturacion.exe, si se genero con Inno Setup)
+1. Ejecute el instalador y siga el asistente (no requiere permisos de administrador).
+2. Abra el programa desde el menu Inicio o el acceso directo del escritorio.
+
+ARCHIVOS
+- LogisticaFacturacion.exe : la aplicacion.
+- appsettings.json         : tarifas (precio por kg, IVA, costo fijo, recargos, etc.).
+                              DEBE estar junto al .exe. Si se borra o se daña, la
+                              aplicacion lo informa y no procesa lotes.
+- lote_ejemplo.txt         : lote de prueba para copiar y pegar.
+- esquema.sql              : estructura de la base de datos (referencia).
+
+BASE DE DATOS
+Se crea automaticamente en:
+  %LOCALAPPDATA%\LogisticaFacturacion\logistica_envios.db
+Para reiniciar el historial, cierre la aplicacion y borre ese archivo.
+
+DESINSTALACION
+- Paquete .zip: borre la carpeta de la aplicacion.
+- Instalador: Configuracion de Windows > Aplicaciones > "Sistema de Facturacion Logistica" > Desinstalar.

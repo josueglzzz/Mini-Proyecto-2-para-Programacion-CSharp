@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Proyecto de pruebas sin dependencias externas: se ejecuta con "dotnet run". -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>Logistica.Pruebas</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Logistica.Dominio\Logistica.Dominio.csproj" />
+    <ProjectReference Include="..\..\src\Logistica.Logica\Logistica.Logica.csproj" />
+    <ProjectReference Include="..\..\src\Logistica.Persistencia\Logistica.Persistencia.csproj" />
+  </ItemGroup>
+
+</Project>

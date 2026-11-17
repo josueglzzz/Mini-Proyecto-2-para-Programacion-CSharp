@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>Logistica.Logica</RootNamespace>
+    <AssemblyName>Logistica.Logica</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logistica.Dominio\Logistica.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
