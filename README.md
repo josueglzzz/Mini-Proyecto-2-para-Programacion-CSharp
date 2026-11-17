@@ -5,7 +5,7 @@ de las sucursales de una empresa de envíos express: valida cada línea capturad
 financiero (subtotal, recargo por zona, sobrepeso, seguro, IVA y total), guarda el historial en una base
 de datos SQLite, exporta la auditoría a CSV y permite cambiar el idioma de la interfaz (Español / English).
 
-Repositorio: https://github.com/josueglzzz/Mini-Proyectyo-2-para-Programacion-CSharp
+Repositorio: https://github.com/josueglzzz/Mini-Proyecto-2-para-Programacion-CSharp
 
 ## Equipo
 
@@ -51,7 +51,7 @@ Dependencias entre proyectos: `UI → Lógica, Persistencia → Dominio`. La int
 ## Clonar, compilar y ejecutar
 
 ```bash
-git clone https://github.com/josueglzzz/Mini-Proyectyo-2-para-Programacion-CSharp.git
+git clone https://github.com/josueglzzz/Mini-Proyecto-2-para-Programacion-CSharp.git
 cd Mini-Proyectyo-2-para-Programacion-CSharp
 dotnet build
 dotnet run --project src/Logistica.UI
