@@ -1,0 +1,12 @@
+ PACK-001 ; Juan Perez ; Zona A ; 12.5 ; 150.0
+PACK-002; Maria Lopez; Zona C; -5.0; 200.0
+PACK-003; Pedro Gomez; Zona B; ABC; 100.0
+PACK-004; Ana Ruiz; Zona C; 25; 1500.00
+PACK-005; Luis Diaz; Zona B; 8.75; 320.50
+COD-101;Cliente Juan Perez;Zona A;15.5;200.0
+PACK-006; Carla Mora; Zona A; 22; 1200
+PACK-007; Jorge Rios; Zona D; 4; 90
+
+PACK-008; Sofia Vargas; Zona B; 3.2; 75
+PACK-009; Raul Mendez; Zona C; 18; $2,500.00
+PACK-001; Duplicado Prueba; Zona A; 1; 10
