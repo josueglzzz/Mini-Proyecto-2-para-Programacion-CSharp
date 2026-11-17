@@ -6,3 +6,7 @@
 *.suo
 *.cache
 *.log
+publicacion/
+instalador/Salida/
+*.db
+*.db-journal
